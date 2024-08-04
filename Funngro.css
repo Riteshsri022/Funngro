@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px;
+    width: 220px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section {
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.hero-image img {
+    width: 500px;
+    height: auto;
+}
+
+.featured {
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.about ul {
+    list-style: disc;
+    margin-top: 1rem;
+}
+
+.how-it-works ol {
+    margin-top: 1rem;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.testimonial {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.call-to-action {
+    text-align: center;
+}
+
+.call-to-action h2 {
+    margin-bottom: 1rem;
+}
+
+.call-to-action p {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-image img {
+        width: 100%;
+    }
+
+    .testimonials-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+}
